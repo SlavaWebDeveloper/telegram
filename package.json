@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "axios": "^1.6.2",
+    "glider-js": "^1.7.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.20.0",
-    "glider-js": "^1.7.8"
+    "react-router-dom": "^6.20.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
@@ -27,6 +27,7 @@
     "eslint-plugin-react-refresh": "^0.4.4",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
+    "terser": "^5.39.0",
     "vite": "^5.0.0"
   }
 }
