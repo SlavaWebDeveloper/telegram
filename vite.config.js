@@ -9,7 +9,7 @@ export default defineConfig({
     // Прокси для API запросов на бэкенд
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
+        target: 'https://telegram-server-dqpj.onrender.com',
         changeOrigin: true,
         secure: false
       }

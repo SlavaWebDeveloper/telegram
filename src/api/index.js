@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Базовый URL для API запросов
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://telegram-server-dqpj.onrender.com/api';
 
 // Настройка axios для отправки Telegram инициализационных данных
 const api = axios.create({
